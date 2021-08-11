@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', fn () => view('home'));
 Route::view('/contact', 'contact');
+Route::view('/profile', 'profile');
